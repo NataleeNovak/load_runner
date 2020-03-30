@@ -2139,7 +2139,7 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=0
-Description=Displays the number of attempted server connections during each second of the scenario run. A server connection is retried when the initial connection was unauthorized, when proxy authentication is required, when the initial connection was closed by the server, when the initial connection to the server could not be made, or when the server was initially unable to resolve the load generator’s IP address.
+Description=Displays the number of attempted server connections during each second of the scenario run. A server connection is retried when the initial connection was unauthorized, when proxy authentication is required, when the initial connection was closed by the server, when the initial connection to the server could not be made, or when the server was initially unable to resolve the load generatorВ’s IP address.
 [36]
 MeasurementsDelimiter=|||
 HelpContext=566
@@ -2865,31 +2865,31 @@ Granularities=1
 Is_Resource_Graph=1
 MeasurementCount=15
 Measurement_0=|||10|||0|||100|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_0="Среднее время записи на диск (с) (Физический диск _Total)"
+MeasurementFullPath_0="Г‘Г°ГҐГ¤Г­ГҐГҐ ГўГ°ГҐГ¬Гї Г§Г ГЇГЁГ±ГЁ Г­Г  Г¤ГЁГ±ГЄ (Г±) (Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤ГЁГ±ГЄ _Total)"
 Measurement_1=|||3|||0|||10|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_1="% Disk Time (PhysicalDisk _Total)"
 Measurement_2=|||4|||0|||100|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_2="Avg. Disk Queue Length (PhysicalDisk _Total)"
 Measurement_3=|||14|||0|||0,0001|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_3="Байт чтения файлов/с (Система)"
+MeasurementFullPath_3="ГЃГ Г©ГІ Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г®Гў/Г± (Г‘ГЁГ±ГІГҐГ¬Г )"
 Measurement_4=|||8|||0|||0,01|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_4="Ошибок страницы/с (Память)"
+MeasurementFullPath_4="ГЋГёГЁГЎГ®ГЄ Г±ГІГ°Г Г­ГЁГ¶Г»/Г± (ГЏГ Г¬ГїГІГј)"
 Measurement_5=|||7|||0|||1E-8|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_5="Байт выделенной виртуальной памяти (Память)"
+MeasurementFullPath_5="ГЃГ Г©ГІ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г®Г© ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г© ГЇГ Г¬ГїГІГЁ (ГЏГ Г¬ГїГІГј)"
 Measurement_6=|||5|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_6="Bytes Total/sec (Server)"
 Measurement_7=|||6|||0|||0,01|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_7="Доступно МБ (Память)"
+MeasurementFullPath_7="Г„Г®Г±ГІГіГЇГ­Г® ГЊГЃ (ГЏГ Г¬ГїГІГј)"
 Measurement_8=|||13|||0|||0,0001|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_8="Байт записи файлов/с (Система)"
+MeasurementFullPath_8="ГЃГ Г©ГІ Г§Г ГЇГЁГ±ГЁ ГґГ Г©Г«Г®Гў/Г± (Г‘ГЁГ±ГІГҐГ¬Г )"
 Measurement_9=|||12|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_9="Текущая длина очереди диска (Физический диск _Total)"
+MeasurementFullPath_9="Г’ГҐГЄГіГ№Г Гї Г¤Г«ГЁГ­Г  Г®Г·ГҐГ°ГҐГ¤ГЁ Г¤ГЁГ±ГЄГ  (Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤ГЁГ±ГЄ _Total)"
 Measurement_10=|||11|||0|||100|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_10="Среднее время чтения с диска (с) (Физический диск _Total)"
+MeasurementFullPath_10="Г‘Г°ГҐГ¤Г­ГҐГҐ ГўГ°ГҐГ¬Гї Г·ГІГҐГ­ГЁГї Г± Г¤ГЁГ±ГЄГ  (Г±) (Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤ГЁГ±ГЄ _Total)"
 Measurement_11=|||2|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_11="Pages/sec (Memory)"
 Measurement_12=|||9|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
-MeasurementFullPath_12="% загруженности процессора (Процессор _Total)"
+MeasurementFullPath_12="% Г§Г ГЈГ°ГіГ¦ГҐГ­Г­Г®Г±ГІГЁ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г  (ГЏГ°Г®Г¶ГҐГ±Г±Г®Г° _Total)"
 Measurement_13=|||0|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_13="% Processor Time (Processor _Total)"
 Measurement_14=|||1|||0|||10|||localhost|||1|||-1|||es_rm_svr_res_nt
@@ -5517,9 +5517,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|Memory|Available MBytes|
-Name=StringV1|Доступно МБ (Память)
+Name=StringV1|Г„Г®Г±ГІГіГЇГ­Г® ГЊГЃ (ГЏГ Г¬ГїГІГј)
 Data=StringV1|
-Description=StringV1|Доступно МБ — это объем физической памяти в МБ, немедленно доступной для выделения процессу или для использования системой. Эта величина равна сумме памяти, выделенной для кэша, свободной памяти и обнуленных страниц памяти.
+Description=StringV1|Г„Г®Г±ГІГіГЇГ­Г® ГЊГЃ В— ГЅГІГ® Г®ГЎГєГҐГ¬ ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г© ГЇГ Г¬ГїГІГЁ Гў ГЊГЃ, Г­ГҐГ¬ГҐГ¤Г«ГҐГ­Г­Г® Г¤Г®Г±ГІГіГЇГ­Г®Г© Г¤Г«Гї ГўГ»Г¤ГҐГ«ГҐГ­ГЁГї ГЇГ°Г®Г¶ГҐГ±Г±Гі ГЁГ«ГЁ Г¤Г«Гї ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї Г±ГЁГ±ГІГҐГ¬Г®Г©. ГќГІГ  ГўГҐГ«ГЁГ·ГЁГ­Г  Г°Г ГўГ­Г  Г±ГіГ¬Г¬ГҐ ГЇГ Г¬ГїГІГЁ, ГўГ»Г¤ГҐГ«ГҐГ­Г­Г®Г© Г¤Г«Гї ГЄГЅГёГ , Г±ГўГ®ГЎГ®Г¤Г­Г®Г© ГЇГ Г¬ГїГІГЁ ГЁ Г®ГЎГ­ГіГ«ГҐГ­Г­Г»Гµ Г±ГІГ°Г Г­ГЁГ¶ ГЇГ Г¬ГїГІГЁ.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5532,9 +5532,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|Memory|Committed Bytes|
-Name=StringV1|Байт выделенной виртуальной памяти (Память)
+Name=StringV1|ГЃГ Г©ГІ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г®Г© ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г© ГЇГ Г¬ГїГІГЁ (ГЏГ Г¬ГїГІГј)
 Data=StringV1|
-Description=StringV1|Байт выделенной виртуальной памяти - это объем виртуальной памяти, которая была выделена (Committed) - в отличие от просто зарезервированной памяти. Выделенная память должна получить место на запоминающем устройстве (т.е. на диске), либо должна не нуждаться в дисковой памяти, поскольку оперативная память достаточно велика для того, чтобы разместить в ней выделенную память. Этот счетчик отражает текущее значение, и не является средним значением по некоторому интервалу времени.
+Description=StringV1|ГЃГ Г©ГІ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г®Г© ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г© ГЇГ Г¬ГїГІГЁ - ГЅГІГ® Г®ГЎГєГҐГ¬ ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г© ГЇГ Г¬ГїГІГЁ, ГЄГ®ГІГ®Г°Г Гї ГЎГ»Г«Г  ГўГ»Г¤ГҐГ«ГҐГ­Г  (Committed) - Гў Г®ГІГ«ГЁГ·ГЁГҐ Г®ГІ ГЇГ°Г®Г±ГІГ® Г§Г Г°ГҐГ§ГҐГ°ГўГЁГ°Г®ГўГ Г­Г­Г®Г© ГЇГ Г¬ГїГІГЁ. Г‚Г»Г¤ГҐГ«ГҐГ­Г­Г Гї ГЇГ Г¬ГїГІГј Г¤Г®Г«Г¦Г­Г  ГЇГ®Г«ГіГ·ГЁГІГј Г¬ГҐГ±ГІГ® Г­Г  Г§Г ГЇГ®Г¬ГЁГ­Г ГѕГ№ГҐГ¬ ГіГ±ГІГ°Г®Г©Г±ГІГўГҐ (ГІ.ГҐ. Г­Г  Г¤ГЁГ±ГЄГҐ), Г«ГЁГЎГ® Г¤Г®Г«Г¦Г­Г  Г­ГҐ Г­ГіГ¦Г¤Г ГІГјГ±Гї Гў Г¤ГЁГ±ГЄГ®ГўГ®Г© ГЇГ Г¬ГїГІГЁ, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Г®ГЇГҐГ°Г ГІГЁГўГ­Г Гї ГЇГ Г¬ГїГІГј Г¤Г®Г±ГІГ ГІГ®Г·Г­Г® ГўГҐГ«ГЁГЄГ  Г¤Г«Гї ГІГ®ГЈГ®, Г·ГІГ®ГЎГ» Г°Г Г§Г¬ГҐГ±ГІГЁГІГј Гў Г­ГҐГ© ГўГ»Г¤ГҐГ«ГҐГ­Г­ГіГѕ ГЇГ Г¬ГїГІГј. ГќГІГ®ГІ Г±Г·ГҐГІГ·ГЁГЄ Г®ГІГ°Г Г¦Г ГҐГІ ГІГҐГЄГіГ№ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ, ГЁ Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г±Г°ГҐГ¤Г­ГЁГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐГ¬ ГЇГ® Г­ГҐГЄГ®ГІГ®Г°Г®Г¬Гі ГЁГ­ГІГҐГ°ГўГ Г«Гі ГўГ°ГҐГ¬ГҐГ­ГЁ.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5547,9 +5547,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|Memory|Page Faults/sec|
-Name=StringV1|Ошибок страницы/с (Память)
+Name=StringV1|ГЋГёГЁГЎГ®ГЄ Г±ГІГ°Г Г­ГЁГ¶Г»/Г± (ГЏГ Г¬ГїГІГј)
 Data=StringV1|
-Description=StringV1|Ошибок страницы физической памяти/сек - это значение счетчика ошибок страницы. Ошибка страницы возникает, когда процесс ссылается на страницу виртуальной памяти, которая не находится в рабочем множестве оперативной памяти. Данный счетчик учитывает как те ошибки страницы физической памяти, которые требуют обращения к диску, так и те, которые вызваны нахождением страницы вне рабочего множества в оперативной памяти. Большинство процессоров могут обрабатывать ошибки страницы второго типа без особых задержек. Однако, обработка ошибок страницы физической памяти, требующая доступа к диску, может привести к значительным задержкам.
+Description=StringV1|ГЋГёГЁГЎГ®ГЄ Г±ГІГ°Г Г­ГЁГ¶Г» ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г© ГЇГ Г¬ГїГІГЁ/Г±ГҐГЄ - ГЅГІГ® Г§Г­Г Г·ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  Г®ГёГЁГЎГ®ГЄ Г±ГІГ°Г Г­ГЁГ¶Г». ГЋГёГЁГЎГЄГ  Г±ГІГ°Г Г­ГЁГ¶Г» ГўГ®Г§Г­ГЁГЄГ ГҐГІ, ГЄГ®ГЈГ¤Г  ГЇГ°Г®Г¶ГҐГ±Г± Г±Г±Г»Г«Г ГҐГІГ±Гї Г­Г  Г±ГІГ°Г Г­ГЁГ¶Гі ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г© ГЇГ Г¬ГїГІГЁ, ГЄГ®ГІГ®Г°Г Гї Г­ГҐ Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г°Г ГЎГ®Г·ГҐГ¬ Г¬Г­Г®Г¦ГҐГ±ГІГўГҐ Г®ГЇГҐГ°Г ГІГЁГўГ­Г®Г© ГЇГ Г¬ГїГІГЁ. Г„Г Г­Г­Г»Г© Г±Г·ГҐГІГ·ГЁГЄ ГіГ·ГЁГІГ»ГўГ ГҐГІ ГЄГ ГЄ ГІГҐ Г®ГёГЁГЎГЄГЁ Г±ГІГ°Г Г­ГЁГ¶Г» ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г© ГЇГ Г¬ГїГІГЁ, ГЄГ®ГІГ®Г°Г»ГҐ ГІГ°ГҐГЎГіГѕГІ Г®ГЎГ°Г Г№ГҐГ­ГЁГї ГЄ Г¤ГЁГ±ГЄГі, ГІГ ГЄ ГЁ ГІГҐ, ГЄГ®ГІГ®Г°Г»ГҐ ГўГ»Г§ГўГ Г­Г» Г­Г ГµГ®Г¦Г¤ГҐГ­ГЁГҐГ¬ Г±ГІГ°Г Г­ГЁГ¶Г» ГўГ­ГҐ Г°Г ГЎГ®Г·ГҐГЈГ® Г¬Г­Г®Г¦ГҐГ±ГІГўГ  Гў Г®ГЇГҐГ°Г ГІГЁГўГ­Г®Г© ГЇГ Г¬ГїГІГЁ. ГЃГ®Г«ГјГёГЁГ­Г±ГІГўГ® ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г®Гў Г¬Г®ГЈГіГІ Г®ГЎГ°Г ГЎГ ГІГ»ГўГ ГІГј Г®ГёГЁГЎГЄГЁ Г±ГІГ°Г Г­ГЁГ¶Г» ГўГІГ®Г°Г®ГЈГ® ГІГЁГЇГ  ГЎГҐГ§ Г®Г±Г®ГЎГ»Гµ Г§Г Г¤ГҐГ°Г¦ГҐГЄ. ГЋГ¤Г­Г ГЄГ®, Г®ГЎГ°Г ГЎГ®ГІГЄГ  Г®ГёГЁГЎГ®ГЄ Г±ГІГ°Г Г­ГЁГ¶Г» ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г© ГЇГ Г¬ГїГІГЁ, ГІГ°ГҐГЎГіГѕГ№Г Гї Г¤Г®Г±ГІГіГЇГ  ГЄ Г¤ГЁГ±ГЄГі, Г¬Г®Г¦ГҐГІ ГЇГ°ГЁГўГҐГ±ГІГЁ ГЄ Г§Г­Г Г·ГЁГІГҐГ«ГјГ­Г»Г¬ Г§Г Г¤ГҐГ°Г¦ГЄГ Г¬.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5562,9 +5562,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|Processor|% Processor Time|_Total
-Name=StringV1|% загруженности процессора (Процессор _Total)
+Name=StringV1|% Г§Г ГЈГ°ГіГ¦ГҐГ­Г­Г®Г±ГІГЁ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г  (ГЏГ°Г®Г¶ГҐГ±Г±Г®Г° _Total)
 Data=StringV1|
-Description=StringV1|% загруженности процессора - это доля времени, которую процессор тратит на обработку всех потоков команд, кроме простаивающего. Это значение равно разнице между 100 % и процентом времени, которое процессор затрачивает на выполнение простаивающего потока. (Простаивающий поток команд занимает рабочее время процессора в отсутствие других потоков команд.) Этот счетчик является основным показателем загруженности процессора. Он показывает среднее значение занятости процессора в течение интервала измерения. Определение того, простаивает ли процессор, выполняется за внутренний интервал опроса по системным часам (10 мсек). Поэтому для современных быстрых процессоров этот счетчик может занижать использование процессора, так как процессор может затрачивать много времени на обслуживание потоков между опросами по системным часам.  Примеры приложений, для которых более вероятно неточное измерение, - таймерные приложения, основанные на загрузке, так как таймеры получают сигнал сразу же после измерения.
+Description=StringV1|% Г§Г ГЈГ°ГіГ¦ГҐГ­Г­Г®Г±ГІГЁ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г  - ГЅГІГ® Г¤Г®Г«Гї ГўГ°ГҐГ¬ГҐГ­ГЁ, ГЄГ®ГІГ®Г°ГіГѕ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г° ГІГ°Г ГІГЁГІ Г­Г  Г®ГЎГ°Г ГЎГ®ГІГЄГі ГўГ±ГҐГµ ГЇГ®ГІГ®ГЄГ®Гў ГЄГ®Г¬Г Г­Г¤, ГЄГ°Г®Г¬ГҐ ГЇГ°Г®Г±ГІГ ГЁГўГ ГѕГ№ГҐГЈГ®. ГќГІГ® Г§Г­Г Г·ГҐГ­ГЁГҐ Г°Г ГўГ­Г® Г°Г Г§Г­ГЁГ¶ГҐ Г¬ГҐГ¦Г¤Гі 100 % ГЁ ГЇГ°Г®Г¶ГҐГ­ГІГ®Г¬ ГўГ°ГҐГ¬ГҐГ­ГЁ, ГЄГ®ГІГ®Г°Г®ГҐ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г° Г§Г ГІГ°Г Г·ГЁГўГ ГҐГІ Г­Г  ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГҐ ГЇГ°Г®Г±ГІГ ГЁГўГ ГѕГ№ГҐГЈГ® ГЇГ®ГІГ®ГЄГ . (ГЏГ°Г®Г±ГІГ ГЁГўГ ГѕГ№ГЁГ© ГЇГ®ГІГ®ГЄ ГЄГ®Г¬Г Г­Г¤ Г§Г Г­ГЁГ¬Г ГҐГІ Г°Г ГЎГ®Г·ГҐГҐ ГўГ°ГҐГ¬Гї ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г  Гў Г®ГІГ±ГіГІГ±ГІГўГЁГҐ Г¤Г°ГіГЈГЁГµ ГЇГ®ГІГ®ГЄГ®Гў ГЄГ®Г¬Г Г­Г¤.) ГќГІГ®ГІ Г±Г·ГҐГІГ·ГЁГЄ ГїГўГ«ГїГҐГІГ±Гї Г®Г±Г­Г®ГўГ­Г»Г¬ ГЇГ®ГЄГ Г§Г ГІГҐГ«ГҐГ¬ Г§Г ГЈГ°ГіГ¦ГҐГ­Г­Г®Г±ГІГЁ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г . ГЋГ­ ГЇГ®ГЄГ Г§Г»ГўГ ГҐГІ Г±Г°ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г§Г Г­ГїГІГ®Г±ГІГЁ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г  Гў ГІГҐГ·ГҐГ­ГЁГҐ ГЁГ­ГІГҐГ°ГўГ Г«Г  ГЁГ§Г¬ГҐГ°ГҐГ­ГЁГї. ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ ГІГ®ГЈГ®, ГЇГ°Г®Г±ГІГ ГЁГўГ ГҐГІ Г«ГЁ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°, ГўГ»ГЇГ®Г«Г­ГїГҐГІГ±Гї Г§Г  ГўГ­ГіГІГ°ГҐГ­Г­ГЁГ© ГЁГ­ГІГҐГ°ГўГ Г« Г®ГЇГ°Г®Г±Г  ГЇГ® Г±ГЁГ±ГІГҐГ¬Г­Г»Г¬ Г·Г Г±Г Г¬ (10 Г¬Г±ГҐГЄ). ГЏГ®ГЅГІГ®Г¬Гі Г¤Г«Гї Г±Г®ГўГ°ГҐГ¬ГҐГ­Г­Г»Гµ ГЎГ»Г±ГІГ°Г»Гµ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г®Гў ГЅГІГ®ГІ Г±Г·ГҐГІГ·ГЁГЄ Г¬Г®Г¦ГҐГІ Г§Г Г­ГЁГ¦Г ГІГј ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г°Г , ГІГ ГЄ ГЄГ ГЄ ГЇГ°Г®Г¶ГҐГ±Г±Г®Г° Г¬Г®Г¦ГҐГІ Г§Г ГІГ°Г Г·ГЁГўГ ГІГј Г¬Г­Г®ГЈГ® ГўГ°ГҐГ¬ГҐГ­ГЁ Г­Г  Г®ГЎГ±Г«ГіГ¦ГЁГўГ Г­ГЁГҐ ГЇГ®ГІГ®ГЄГ®Гў Г¬ГҐГ¦Г¤Гі Г®ГЇГ°Г®Г±Г Г¬ГЁ ГЇГ® Г±ГЁГ±ГІГҐГ¬Г­Г»Г¬ Г·Г Г±Г Г¬.  ГЏГ°ГЁГ¬ГҐГ°Г» ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГ©, Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГЎГ®Г«ГҐГҐ ГўГҐГ°Г®ГїГІГ­Г® Г­ГҐГІГ®Г·Г­Г®ГҐ ГЁГ§Г¬ГҐГ°ГҐГ­ГЁГҐ, - ГІГ Г©Г¬ГҐГ°Г­Г»ГҐ ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї, Г®Г±Г­Г®ГўГ Г­Г­Г»ГҐ Г­Г  Г§Г ГЈГ°ГіГ§ГЄГҐ, ГІГ ГЄ ГЄГ ГЄ ГІГ Г©Г¬ГҐГ°Г» ГЇГ®Г«ГіГ·Г ГѕГІ Г±ГЁГЈГ­Г Г« Г±Г°Г Г§Гі Г¦ГҐ ГЇГ®Г±Г«ГҐ ГЁГ§Г¬ГҐГ°ГҐГ­ГЁГї.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5577,9 +5577,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|PhysicalDisk|Avg. Disk sec/Write|_Total
-Name=StringV1|Среднее время записи на диск (с) (Физический диск _Total)
+Name=StringV1|Г‘Г°ГҐГ¤Г­ГҐГҐ ГўГ°ГҐГ¬Гї Г§Г ГЇГЁГ±ГЁ Г­Г  Г¤ГЁГ±ГЄ (Г±) (Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤ГЁГ±ГЄ _Total)
 Data=StringV1|
-Description=StringV1|Среднее время записи на диск - это время в секундах, затрачиваемое в среднем на одну операцию записи данных на диск.
+Description=StringV1|Г‘Г°ГҐГ¤Г­ГҐГҐ ГўГ°ГҐГ¬Гї Г§Г ГЇГЁГ±ГЁ Г­Г  Г¤ГЁГ±ГЄ - ГЅГІГ® ГўГ°ГҐГ¬Гї Гў Г±ГҐГЄГіГ­Г¤Г Гµ, Г§Г ГІГ°Г Г·ГЁГўГ ГҐГ¬Г®ГҐ Гў Г±Г°ГҐГ¤Г­ГҐГ¬ Г­Г  Г®Г¤Г­Гі Г®ГЇГҐГ°Г Г¶ГЁГѕ Г§Г ГЇГЁГ±ГЁ Г¤Г Г­Г­Г»Гµ Г­Г  Г¤ГЁГ±ГЄ.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5592,9 +5592,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|PhysicalDisk|Avg. Disk sec/Read|_Total
-Name=StringV1|Среднее время чтения с диска (с) (Физический диск _Total)
+Name=StringV1|Г‘Г°ГҐГ¤Г­ГҐГҐ ГўГ°ГҐГ¬Гї Г·ГІГҐГ­ГЁГї Г± Г¤ГЁГ±ГЄГ  (Г±) (Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤ГЁГ±ГЄ _Total)
 Data=StringV1|
-Description=StringV1|Среднее время чтения с диска - это время в секундах, затрачиваемое в среднем на одну операцию чтения данных с диска.
+Description=StringV1|Г‘Г°ГҐГ¤Г­ГҐГҐ ГўГ°ГҐГ¬Гї Г·ГІГҐГ­ГЁГї Г± Г¤ГЁГ±ГЄГ  - ГЅГІГ® ГўГ°ГҐГ¬Гї Гў Г±ГҐГЄГіГ­Г¤Г Гµ, Г§Г ГІГ°Г Г·ГЁГўГ ГҐГ¬Г®ГҐ Гў Г±Г°ГҐГ¤Г­ГҐГ¬ Г­Г  Г®Г¤Г­Гі Г®ГЇГҐГ°Г Г¶ГЁГѕ Г·ГІГҐГ­ГЁГї Г¤Г Г­Г­Г»Гµ Г± Г¤ГЁГ±ГЄГ .
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5607,9 +5607,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|PhysicalDisk|Current Disk Queue Length|_Total
-Name=StringV1|Текущая длина очереди диска (Физический диск _Total)
+Name=StringV1|Г’ГҐГЄГіГ№Г Гї Г¤Г«ГЁГ­Г  Г®Г·ГҐГ°ГҐГ¤ГЁ Г¤ГЁГ±ГЄГ  (Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤ГЁГ±ГЄ _Total)
 Data=StringV1|
-Description=StringV1|Текущая длина очереди диска - это количество невыполненных запросов к диску во время сбора сведений о загруженности. Сюда включаются запросы, обслуживаемые во время проведения замера. Этот показатель представляет собой конкретное текущее значение, и не является средним значением по некоторому интервалу времени. Многошпиндельные дисковые устройства могут обрабатывать одновременно несколько запросов, остальные имеющиеся запросы будут ожидать обслуживания. Этот счетчик может отражать постоянные изменения длины очереди, показывая то большую, то малую ее длину, но если имеется перегрузка дискового устройства, то вероятно, что значение этого счетчика будет большим постоянно. Время задержки обработки запросов пропорционально длине этой очереди минус количество шпинделей дисковых устройств. Для хорошей производительности системы среднее значение этого счетчика не должно превышать двух.
+Description=StringV1|Г’ГҐГЄГіГ№Г Гї Г¤Г«ГЁГ­Г  Г®Г·ГҐГ°ГҐГ¤ГЁ Г¤ГЁГ±ГЄГ  - ГЅГІГ® ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г­ГҐГўГ»ГЇГ®Г«Г­ГҐГ­Г­Г»Гµ Г§Г ГЇГ°Г®Г±Г®Гў ГЄ Г¤ГЁГ±ГЄГі ГўГ® ГўГ°ГҐГ¬Гї Г±ГЎГ®Г°Г  Г±ГўГҐГ¤ГҐГ­ГЁГ© Г® Г§Г ГЈГ°ГіГ¦ГҐГ­Г­Г®Г±ГІГЁ. Г‘ГѕГ¤Г  ГўГЄГ«ГѕГ·Г ГѕГІГ±Гї Г§Г ГЇГ°Г®Г±Г», Г®ГЎГ±Г«ГіГ¦ГЁГўГ ГҐГ¬Г»ГҐ ГўГ® ГўГ°ГҐГ¬Гї ГЇГ°Г®ГўГҐГ¤ГҐГ­ГЁГї Г§Г Г¬ГҐГ°Г . ГќГІГ®ГІ ГЇГ®ГЄГ Г§Г ГІГҐГ«Гј ГЇГ°ГҐГ¤Г±ГІГ ГўГ«ГїГҐГІ Г±Г®ГЎГ®Г© ГЄГ®Г­ГЄГ°ГҐГІГ­Г®ГҐ ГІГҐГЄГіГ№ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ, ГЁ Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г±Г°ГҐГ¤Г­ГЁГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐГ¬ ГЇГ® Г­ГҐГЄГ®ГІГ®Г°Г®Г¬Гі ГЁГ­ГІГҐГ°ГўГ Г«Гі ГўГ°ГҐГ¬ГҐГ­ГЁ. ГЊГ­Г®ГЈГ®ГёГЇГЁГ­Г¤ГҐГ«ГјГ­Г»ГҐ Г¤ГЁГ±ГЄГ®ГўГ»ГҐ ГіГ±ГІГ°Г®Г©Г±ГІГўГ  Г¬Г®ГЈГіГІ Г®ГЎГ°Г ГЎГ ГІГ»ГўГ ГІГј Г®Г¤Г­Г®ГўГ°ГҐГ¬ГҐГ­Г­Г® Г­ГҐГ±ГЄГ®Г«ГјГЄГ® Г§Г ГЇГ°Г®Г±Г®Гў, Г®Г±ГІГ Г«ГјГ­Г»ГҐ ГЁГ¬ГҐГѕГ№ГЁГҐГ±Гї Г§Г ГЇГ°Г®Г±Г» ГЎГіГ¤ГіГІ Г®Г¦ГЁГ¤Г ГІГј Г®ГЎГ±Г«ГіГ¦ГЁГўГ Г­ГЁГї. ГќГІГ®ГІ Г±Г·ГҐГІГ·ГЁГЄ Г¬Г®Г¦ГҐГІ Г®ГІГ°Г Г¦Г ГІГј ГЇГ®Г±ГІГ®ГїГ­Г­Г»ГҐ ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї Г¤Г«ГЁГ­Г» Г®Г·ГҐГ°ГҐГ¤ГЁ, ГЇГ®ГЄГ Г§Г»ГўГ Гї ГІГ® ГЎГ®Г«ГјГёГіГѕ, ГІГ® Г¬Г Г«ГіГѕ ГҐГҐ Г¤Г«ГЁГ­Гі, Г­Г® ГҐГ±Г«ГЁ ГЁГ¬ГҐГҐГІГ±Гї ГЇГҐГ°ГҐГЈГ°ГіГ§ГЄГ  Г¤ГЁГ±ГЄГ®ГўГ®ГЈГ® ГіГ±ГІГ°Г®Г©Г±ГІГўГ , ГІГ® ГўГҐГ°Г®ГїГІГ­Г®, Г·ГІГ® Г§Г­Г Г·ГҐГ­ГЁГҐ ГЅГІГ®ГЈГ® Г±Г·ГҐГІГ·ГЁГЄГ  ГЎГіГ¤ГҐГІ ГЎГ®Г«ГјГёГЁГ¬ ГЇГ®Г±ГІГ®ГїГ­Г­Г®. Г‚Г°ГҐГ¬Гї Г§Г Г¤ГҐГ°Г¦ГЄГЁ Г®ГЎГ°Г ГЎГ®ГІГЄГЁ Г§Г ГЇГ°Г®Г±Г®Гў ГЇГ°Г®ГЇГ®Г°Г¶ГЁГ®Г­Г Г«ГјГ­Г® Г¤Г«ГЁГ­ГҐ ГЅГІГ®Г© Г®Г·ГҐГ°ГҐГ¤ГЁ Г¬ГЁГ­ГіГ± ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГёГЇГЁГ­Г¤ГҐГ«ГҐГ© Г¤ГЁГ±ГЄГ®ГўГ»Гµ ГіГ±ГІГ°Г®Г©Г±ГІГў. Г„Г«Гї ГµГ®Г°Г®ГёГҐГ© ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«ГјГ­Г®Г±ГІГЁ Г±ГЁГ±ГІГҐГ¬Г» Г±Г°ГҐГ¤Г­ГҐГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЅГІГ®ГЈГ® Г±Г·ГҐГІГ·ГЁГЄГ  Г­ГҐ Г¤Г®Г«Г¦Г­Г® ГЇГ°ГҐГўГ»ГёГ ГІГј Г¤ГўГіГµ.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5622,9 +5622,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|System|File Write Bytes/sec|
-Name=StringV1|Байт записи файлов/с (Система)
+Name=StringV1|ГЃГ Г©ГІ Г§Г ГЇГЁГ±ГЁ ГґГ Г©Г«Г®Гў/Г± (Г‘ГЁГ±ГІГҐГ¬Г )
 Data=StringV1|
-Description=StringV1|Байт записи файлов/сек - это средняя скорость записи байт для удовлетворения  системных запросов записи на всех устройствах данного компьютера, включая запросы записи данных в файловый кэш.  Измеряется числом байт в секунду.  Этот счетчик показывает разницу значений между двумя последними снятиями показаний, деленную на длительность интервала измерения.
+Description=StringV1|ГЃГ Г©ГІ Г§Г ГЇГЁГ±ГЁ ГґГ Г©Г«Г®Гў/Г±ГҐГЄ - ГЅГІГ® Г±Г°ГҐГ¤Г­ГїГї Г±ГЄГ®Г°Г®Г±ГІГј Г§Г ГЇГЁГ±ГЁ ГЎГ Г©ГІ Г¤Г«Гї ГіГ¤Г®ГўГ«ГҐГІГўГ®Г°ГҐГ­ГЁГї  Г±ГЁГ±ГІГҐГ¬Г­Г»Гµ Г§Г ГЇГ°Г®Г±Г®Гў Г§Г ГЇГЁГ±ГЁ Г­Г  ГўГ±ГҐГµ ГіГ±ГІГ°Г®Г©Г±ГІГўГ Гµ Г¤Г Г­Г­Г®ГЈГ® ГЄГ®Г¬ГЇГјГѕГІГҐГ°Г , ГўГЄГ«ГѕГ·Г Гї Г§Г ГЇГ°Г®Г±Г» Г§Г ГЇГЁГ±ГЁ Г¤Г Г­Г­Г»Гµ Гў ГґГ Г©Г«Г®ГўГ»Г© ГЄГЅГё.  Г€Г§Г¬ГҐГ°ГїГҐГІГ±Гї Г·ГЁГ±Г«Г®Г¬ ГЎГ Г©ГІ Гў Г±ГҐГЄГіГ­Г¤Гі.  ГќГІГ®ГІ Г±Г·ГҐГІГ·ГЁГЄ ГЇГ®ГЄГ Г§Г»ГўГ ГҐГІ Г°Г Г§Г­ГЁГ¶Гі Г§Г­Г Г·ГҐГ­ГЁГ© Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ¬ГЁ Г±Г­ГїГІГЁГїГ¬ГЁ ГЇГ®ГЄГ Г§Г Г­ГЁГ©, Г¤ГҐГ«ГҐГ­Г­ГіГѕ Г­Г  Г¤Г«ГЁГІГҐГ«ГјГ­Г®Г±ГІГј ГЁГ­ГІГҐГ°ГўГ Г«Г  ГЁГ§Г¬ГҐГ°ГҐГ­ГЁГї.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5637,9 +5637,9 @@ MonitorId=IntV1|5705
 {MonItem
 CustomPerfItemV1=IntV1|1
 ObjId=StringV1|System|File Read Bytes/sec|
-Name=StringV1|Байт чтения файлов/с (Система)
+Name=StringV1|ГЃГ Г©ГІ Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г®Гў/Г± (Г‘ГЁГ±ГІГҐГ¬Г )
 Data=StringV1|
-Description=StringV1|Байт чтения файлов/сек - это средняя скорость считывания байт для удовлетворения  системных запросов чтения на всех устройствах данного компьютера, включая запросы чтения данных в файловом кэше.  Измеряется числом байт в секунду.  Этот счетчик показывает разницу значений между двумя последними снятиями показаний, деленную на длительность интервала измерения.
+Description=StringV1|ГЃГ Г©ГІ Г·ГІГҐГ­ГЁГї ГґГ Г©Г«Г®Гў/Г±ГҐГЄ - ГЅГІГ® Г±Г°ГҐГ¤Г­ГїГї Г±ГЄГ®Г°Г®Г±ГІГј Г±Г·ГЁГІГ»ГўГ Г­ГЁГї ГЎГ Г©ГІ Г¤Г«Гї ГіГ¤Г®ГўГ«ГҐГІГўГ®Г°ГҐГ­ГЁГї  Г±ГЁГ±ГІГҐГ¬Г­Г»Гµ Г§Г ГЇГ°Г®Г±Г®Гў Г·ГІГҐГ­ГЁГї Г­Г  ГўГ±ГҐГµ ГіГ±ГІГ°Г®Г©Г±ГІГўГ Гµ Г¤Г Г­Г­Г®ГЈГ® ГЄГ®Г¬ГЇГјГѕГІГҐГ°Г , ГўГЄГ«ГѕГ·Г Гї Г§Г ГЇГ°Г®Г±Г» Г·ГІГҐГ­ГЁГї Г¤Г Г­Г­Г»Гµ Гў ГґГ Г©Г«Г®ГўГ®Г¬ ГЄГЅГёГҐ.  Г€Г§Г¬ГҐГ°ГїГҐГІГ±Гї Г·ГЁГ±Г«Г®Г¬ ГЎГ Г©ГІ Гў Г±ГҐГЄГіГ­Г¤Гі.  ГќГІГ®ГІ Г±Г·ГҐГІГ·ГЁГЄ ГЇГ®ГЄГ Г§Г»ГўГ ГҐГІ Г°Г Г§Г­ГЁГ¶Гі Г§Г­Г Г·ГҐГ­ГЁГ© Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ¬ГЁ Г±Г­ГїГІГЁГїГ¬ГЁ ГЇГ®ГЄГ Г§Г Г­ГЁГ©, Г¤ГҐГ«ГҐГ­Г­ГіГѕ Г­Г  Г¤Г«ГЁГІГҐГ«ГјГ­Г®Г±ГІГј ГЁГ­ГІГҐГ°ГўГ Г«Г  ГЁГ§Г¬ГҐГ°ГҐГ­ГЁГї.
 ObjectType=IntV1|0
 DisplayerName=StringV1|es_rm_svr_res_nt
 }
@@ -5664,600 +5664,1194 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
 }
 
 {ScenarioSchedulerConfig
-<?xml version="1.0" encoding="utf-16"?>
-<LoadTest>
-  <Schedulers>
-    <CurrentSchedulerId>1</CurrentSchedulerId>
-    <StartMode>
-      <StartModeType>Immediately</StartModeType>
-      <StartModes>
-        <Immediately />
-        <DelayAfterLTStart>0</DelayAfterLTStart>
-        <StartAt>2020-03-25T14:03:01.6471384+03:00</StartAt>
-      </StartModes>
-    </StartMode>
-    <Scheduler ID="1">
-      <Name>Schedule 1</Name>
-      <Manual>
-        <SchedulerType>Groups</SchedulerType>
-        <Global>
-          <Scheduling>
-            <IsDefaultScheduler>false</IsDefaultScheduler>
-            <DynamicScheduling>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>1</Count>
-                  <Interval>1230</Interval>
-                </Batch>
-                <TotalVusersNumber>19</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>1320</RunFor>
-              </Duration>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>1</Count>
-                  <Interval>225</Interval>
-                </Batch>
-                <TotalVusersNumber>1</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>1320</RunFor>
-              </Duration>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>4</Count>
-                  <Interval>60</Interval>
-                </Batch>
-                <TotalVusersNumber>6</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>1320</RunFor>
-              </Duration>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>4</Count>
-                  <Interval>30</Interval>
-                </Batch>
-                <TotalVusersNumber>10</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>1320</RunFor>
-              </Duration>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>4</Count>
-                  <Interval>30</Interval>
-                </Batch>
-                <TotalVusersNumber>10</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>1320</RunFor>
-              </Duration>
-              <StopAll>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-              </StopAll>
-            </DynamicScheduling>
-          </Scheduling>
-        </Global>
-        <Groups>
-          <InitAllBeforeStart>false</InitAllBeforeStart>
-          <GroupScheduler>
-            <GroupName>search_payment_itinerary</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>false</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <StopAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                </StopAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-          <GroupScheduler>
-            <GroupName>search_payment</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>false</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <StopAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                </StopAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-          <GroupScheduler>
-            <GroupName>search</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>false</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <StopAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                </StopAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-          <GroupScheduler>
-            <GroupName>itinerary_cancel</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>false</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>2</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <StopAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                </StopAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-          <GroupScheduler>
-            <GroupName>itinerary</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>false</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>3</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>3</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>3</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>3</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>5</Interval>
-                  </Batch>
-                  <TotalVusersNumber>3</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>1320</RunFor>
-                </Duration>
-                <StopAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                </StopAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-        </Groups>
-      </Manual>
-    </Scheduler>
-  </Schedulers>
+<?xml version="1.0" encoding="utf-16"?>
+
+<LoadTest>
+
+  <Schedulers>
+
+    <CurrentSchedulerId>1</CurrentSchedulerId>
+
+    <StartMode>
+
+      <StartModeType>Immediately</StartModeType>
+
+      <StartModes>
+
+        <Immediately />
+
+        <DelayAfterLTStart>0</DelayAfterLTStart>
+
+        <StartAt>2020-03-25T14:03:01.6471384+03:00</StartAt>
+
+      </StartModes>
+
+    </StartMode>
+
+    <Scheduler ID="1">
+
+      <Name>Schedule 1</Name>
+
+      <Manual>
+
+        <SchedulerType>Groups</SchedulerType>
+
+        <Global>
+
+          <Scheduling>
+
+            <IsDefaultScheduler>false</IsDefaultScheduler>
+
+            <DynamicScheduling>
+
+              <RampUp>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>1</Count>
+
+                  <Interval>1230</Interval>
+
+                </Batch>
+
+                <TotalVusersNumber>19</TotalVusersNumber>
+
+              </RampUp>
+
+              <Duration>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <RunFor>1320</RunFor>
+
+              </Duration>
+
+              <RampUp>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>1</Count>
+
+                  <Interval>225</Interval>
+
+                </Batch>
+
+                <TotalVusersNumber>1</TotalVusersNumber>
+
+              </RampUp>
+
+              <Duration>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <RunFor>1320</RunFor>
+
+              </Duration>
+
+              <RampUp>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>4</Count>
+
+                  <Interval>60</Interval>
+
+                </Batch>
+
+                <TotalVusersNumber>6</TotalVusersNumber>
+
+              </RampUp>
+
+              <Duration>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <RunFor>1320</RunFor>
+
+              </Duration>
+
+              <RampUp>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>4</Count>
+
+                  <Interval>30</Interval>
+
+                </Batch>
+
+                <TotalVusersNumber>10</TotalVusersNumber>
+
+              </RampUp>
+
+              <Duration>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <RunFor>1320</RunFor>
+
+              </Duration>
+
+              <RampUp>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>4</Count>
+
+                  <Interval>30</Interval>
+
+                </Batch>
+
+                <TotalVusersNumber>10</TotalVusersNumber>
+
+              </RampUp>
+
+              <Duration>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <RunFor>1320</RunFor>
+
+              </Duration>
+
+              <StopAll>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+              </StopAll>
+
+            </DynamicScheduling>
+
+          </Scheduling>
+
+        </Global>
+
+        <Groups>
+
+          <InitAllBeforeStart>false</InitAllBeforeStart>
+
+          <GroupScheduler>
+
+            <GroupName>search_payment_itinerary</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>false</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <StopAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                </StopAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+          <GroupScheduler>
+
+            <GroupName>search_payment</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>false</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <StopAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                </StopAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+          <GroupScheduler>
+
+            <GroupName>search</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>false</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <StopAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                </StopAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+          <GroupScheduler>
+
+            <GroupName>itinerary_cancel</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>false</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>2</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <StopAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                </StopAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+          <GroupScheduler>
+
+            <GroupName>itinerary</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>false</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>3</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>3</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>3</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>3</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>5</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>3</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>1320</RunFor>
+
+                </Duration>
+
+                <StopAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                </StopAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+        </Groups>
+
+      </Manual>
+
+    </Scheduler>
+
+  </Schedulers>
+
 </LoadTest>
 }
 
